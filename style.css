@@ -260,6 +260,20 @@ section { margin: 72px auto; }
 .budget-list li:last-child { border-bottom: 0; }
 .small { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 14px; }
 
+.costs {
+  width: 100%;
+  margin-top: 24px;
+  border-collapse: collapse;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.costs td { padding: 12px 20px; border-bottom: 1px dashed var(--line); }
+.costs tr:last-child td { border-bottom: 0; }
+.costs td:last-child { text-align: right; font-weight: 600; color: var(--accent); white-space: nowrap; }
+
 /* WARNING */
 .warning {
   display: flex;
